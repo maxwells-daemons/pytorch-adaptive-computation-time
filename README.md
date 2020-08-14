@@ -29,6 +29,12 @@ output, hidden, ponder_cost = rnn(inputs, initial_hidden)
 ## Documentation
 Documentation is [hosted on Read the Docs](https://github.com/iamishalkin/cyrtd).
 
+## Installation
+
+```
+pip install pytorch-adaptive-computation-time
+```
+
 ## BibTeX
 
 You don’t need to cite this code, but if it helps you in your research and you’d like to:

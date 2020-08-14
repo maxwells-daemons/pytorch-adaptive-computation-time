@@ -35,8 +35,7 @@ GRU with adaptive computation time::
 Installation
 ------------
 
-TODO
-
+:code:`pip install pytorch-adaptive-computation-time`
 
 Contents
 --------
