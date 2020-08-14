@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "pytorch-adaptive-computation-time"
-version = "0.1.0"
-description = "A clean implementation of adaptive computation time RNNs [Graves 2016] in PyTorch."
+version = "0.1.2"
+description = "Implements adaptive computation time RNNs in PyTorch, with the same interface as builtin RNNs."
 license = "Apache-2.0"
 authors = ["maxwells-daemons <aidanswope@gmail.com>"]
 readme = "README.md"
@@ -23,23 +23,14 @@ classifiers = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.6.1"
+python = "^3.6.10"
 pytorch-lightning = "0.8.5"
-black = "^19.10b0"
-flake8 = "^3.8.3"
-mypy = "^0.782"
 sphinx = { version = "^3.2.0", optional = true }
 sphinx-argparse = { version = "^0.2.5", optional = true }
-torch = "^1.6.0"
+torch = "^1.5.0"
 
 [tool.poetry.dev-dependencies]
 python-language-server = {version = "^0.34.1", allow-prereleases = true}
-flake8 = {version = "^3.8.3", allow-prereleases = true}
-mypy = {version = "^0.782", allow-prereleases = true}
-black = {version = "^19.10b0", allow-prereleases = true}
-isort = {version = "^5.2.2", allow-prereleases = true}
-neovim = {version = "^0.3.1", allow-prereleases = true}
-pynvim = {version = "^0.4.1", allow-prereleases = true}
 
 [tool.poetry.extras]
 docs = ["sphinx", "sphinx-argparse"]
