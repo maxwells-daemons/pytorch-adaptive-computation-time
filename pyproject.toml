@@ -24,14 +24,13 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = "^3.6.1"
-torch = {url = "https://download.pytorch.org/whl/cu101/torch-1.5.1%2Bcu101-cp38-cp38-linux_x86_64.whl", platform = "linux"}
 pytorch-lightning = "0.8.5"
 black = "^19.10b0"
 flake8 = "^3.8.3"
 mypy = "^0.782"
 sphinx = { version = "^3.2.0", optional = true }
 sphinx-argparse = { version = "^0.2.5", optional = true }
-sphinx-rtd-theme = { version = "^0.5.0", optional = true}
+torch = "^1.6.0"
 
 [tool.poetry.dev-dependencies]
 python-language-server = {version = "^0.34.1", allow-prereleases = true}
@@ -43,7 +42,7 @@ neovim = {version = "^0.3.1", allow-prereleases = true}
 pynvim = {version = "^0.4.1", allow-prereleases = true}
 
 [tool.poetry.extras]
-docs = ["sphinx", "sphinx-argparse", "sphinx-rtd-theme"]
+docs = ["sphinx", "sphinx-argparse"]
 
 [tool.poetry.scripts]
 train = "pytorch_adaptive_computation_time.training:main"
