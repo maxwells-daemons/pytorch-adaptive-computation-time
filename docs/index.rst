@@ -71,7 +71,7 @@ You don't need to cite this code, but if it helps you in your research and you'd
       author  = "Swope, Aidan",
       journal = "GitHub",
       year    = "2020",
-      url     = "TODO"
+      url     = "https://github.com/maxwells-daemons/pytorch-adaptive-computation-time"
     }
 
 If you use the experiment code, please also consider
