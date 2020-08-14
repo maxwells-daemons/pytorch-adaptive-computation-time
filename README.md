@@ -27,7 +27,7 @@ output, hidden, ponder_cost = rnn(inputs, initial_hidden)
 ```
 
 ## Documentation
-Documentation is [hosted on Read the Docs](https://github.com/iamishalkin/cyrtd).
+Documentation is [hosted on Read the Docs](https://pytorch-adaptive-computation-time.readthedocs.io/en/latest/).
 
 ## Installation
 
