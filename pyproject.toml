@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pytorch-adaptive-computation-time"
-version = "0.1.2"
+version = "0.1.3"
 description = "Implements adaptive computation time RNNs in PyTorch, with the same interface as builtin RNNs."
 license = "Apache-2.0"
 authors = ["maxwells-daemons <aidanswope@gmail.com>"]
