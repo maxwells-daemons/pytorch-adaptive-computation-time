@@ -54,7 +54,7 @@ which reproduces a training task from
 Code
 ----
 
-TODO
+Check out the code `on GitHub <https://github.com/maxwells-daemons/pytorch-adaptive-computation-time/>`_.
 
 License
 -------
