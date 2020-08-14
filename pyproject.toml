@@ -7,7 +7,7 @@ authors = ["maxwells-daemons <aidanswope@gmail.com>"]
 readme = "README.md"
 homepage = "https://github.com/maxwells-daemons/pytorch-adaptive-computation-time"
 repository = "https://github.com/maxwells-daemons/pytorch-adaptive-computation-time"
-documentation = "TODO"
+documentation = "https://pytorch-adaptive-computation-time.readthedocs.io/en/latest/"
 keywords = ["pytorch", "adaptive-computation-time", "rnn", "machine-learning", "neural-network"]
 classifiers = [
     "Environment :: GPU",
