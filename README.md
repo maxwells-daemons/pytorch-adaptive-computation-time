@@ -1,5 +1,9 @@
 # pytorch-adaptive-computation-time
 
+![Read the Docs](https://img.shields.io/readthedocs/pytorch-adaptive-computation-time)
+![GitHub](https://img.shields.io/github/license/Anima-Lab/pytorch-adaptive-computation-time)
+
+
 This library implements PyTorch modules for recurrent neural networks that can learn to execute variable-time algorithms,
 as presented in [Adaptive Computation Time for Recurrent Neural Networks (Graves 2016)](https://arxiv.org/abs/1603.08983/).
 These models can learn patterns requiring varying amounts of computation for a fixed-size input,
